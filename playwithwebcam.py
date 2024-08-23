@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # Open stream for video capture.
-stream = cv2.VideoCapture(0)
+stream = cv2.VideoCapture(1)
 
 # Check if stream is open, if not close it.
 if not stream.isOpened():
